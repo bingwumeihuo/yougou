@@ -11,12 +11,12 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.yougou.pojo.Brand;
-import com.yougou.service.BrandService;
+import com.yougou.brand.pojo.Brand;
+import com.yougou.brand.service.BrandService;
 
-import entity.PageResult;
-import entity.Result;
-import entity.StatusCode;
+import com.yougou.common.entity.PageResult;
+import com.yougou.common.entity.Result;
+import com.yougou.common.entity.StatusCode;
 /**
  * brand控制器层
  * @author Administrator
