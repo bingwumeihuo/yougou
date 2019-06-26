@@ -6,7 +6,12 @@
 
     <groupId>com.yougou</groupId>
     <artifactId>yougou</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>yougou-brand</module>
+        <module>yougou-common</module>
+    </modules>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
