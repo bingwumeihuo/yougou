@@ -29,7 +29,20 @@ public class BrandController {
 
 	@Autowired
 	private BrandService brandService;
-	
+	@RequestMapping(value="/{module}/{module2}/{name}")
+	public String commonController(@PathVariable String module,@PathVariable String module2, @PathVariable String name) {
+		return module+"/"+module2+"/"+name;
+	}
+	@RequestMapping(value="/{module}/{name}")
+	public String commonController2(@PathVariable String module, @PathVariable String name) {
+		return module+"/"+name;
+	}
+	@RequestMapping(value="/{name}")
+	public String commonController(@PathVariable String name) {
+
+		return name;
+	}
+
 	
 	/**
 	 * 查询全部数据

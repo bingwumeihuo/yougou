@@ -11,3 +11,7 @@ spring:
   jpa:
     database: MySQL
     show-sql: true
+  thymeleaf:
+    mode: HTML
+    prefix: classpath:/static/
+    suffix: .html

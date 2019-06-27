@@ -1,9 +1,8 @@
-package com.yougou.brand.controller;
-import com.yougou.common.entity.Result;
-import com.yougou.common.entity.StatusCode;
+package com.yougou.common.entity;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.ResponseBody;
+
 /**
  * 统一异常处理类
  */
